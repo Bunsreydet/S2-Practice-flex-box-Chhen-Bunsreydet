@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .all-container
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+        }
+        .det
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+        .header
+        {
+            font-size: 30px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            border-radius: 0.5rem;
+            background-color: #1e90ff;
+            box-shadow: 0px 5px 0px #0077ea;
+            padding-left: 10px;
+        }
+        .main
+        {
+            font-size: 30px;
+            padding-top: 10px;
+            width: 70vw;
+            height: 700px;
+            border-radius: 0.5rem;
+            background-color: #3cb371;
+            box-shadow: 0px 5px 0px #2f8d59;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            padding-left: 10px;
+        }
+        #itemContainer
+        {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item
+        {
+
+            margin: 15px;
+            height: 100px;
+            width: 100px;
+            border-radius: 0.5rem;
+            background-color: #2f8d59;
+            box-shadow: 0px 5px 0px #226741;
+            padding-left: 10px;
+        }
+        .sidebar
+        {
+            font-size: 30px;
+            padding-top: 10px;
+            border-radius: 0.5rem;
+            width: 30vw;
+            background-color: #ff6347;
+            box-shadow: 0px 5px 0px #e02200;
+            padding-left: 10px;
+        }
+        .footer
+        {
+            border-radius: 0.5rem;
+            background-color: #4169e1;
+            box-shadow: 0px 5px 0px #1d44b8;
+            font-size: 30px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }   
+        
+    </style>
+
+</head>
+<body>
+    <div class="all-container">
+        <div class="header" style="color: aliceblue;">header</div>
+        <div class="det"> 
+            <div class="main" style="color: aliceblue;">
+
+                <div class="text">
+                    <p>main</p>
+                </div>
+
+                <div id="itemContainer">
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                    <div class="item">item</div>
+                </div>
+            </div>
+            <div class="sidebar" style="color: aliceblue;">sidebar</div>
+        </div>
+        <div class="footer" style="color: aliceblue;">footer</div>
+    </div>
+     
+</body>
+</html>
